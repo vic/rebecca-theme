@@ -75,7 +75,8 @@
    `(info-string ((,class (:foreground ,str))))
    `(lazy-highlight ((,class (:foreground ,fg2 :background ,bg3))))
    `(link ((,class (:foreground ,const :underline t))))
-   `(linum ((,class (:slant italic :foreground ,bg4 :background ,bg1 :height 0.7))))
+   `(linum ((,class (:foreground ,comment :background ,bg1 :height 0.6))))
+   `(linum-relative-current ((,class (:foreground ,fg1 :background ,bg1 :height 0.6))))
    `(minibuffer-prompt ((,class (:bold t :foreground ,keyword))))
    `(region ((,class (:background ,rebecca :foreground ,fg3))))
    `(show-paren-match-face ((,class (:background ,warning))))
@@ -166,6 +167,7 @@
    `(gnus-summary-normal-unread ((,class (:foreground ,comment :weight normal))))
    `(gnus-summary-selected ((,class (:inverse-video t))))
    ;; helm
+   `(helm-match ((,class (:foreground ,type))))
    `(helm-bookmark-w3m ((,class (:foreground ,type))))
    `(helm-buffer-not-saved ((,class (:foreground ,type :background ,bg1))))
    `(helm-buffer-process ((,class (:foreground ,builtin :background ,bg1))))
@@ -241,8 +243,8 @@
    `(magit-section-heading        ((,class (:foreground ,keyword :weight bold))))
    `(magit-section-highlight      ((,class (:background ,bg2))))
    ;; mode-line
-   `(mode-line ((,class (:foreground nil :background ,rebecca :box ,bg5))))
-   `(mode-line-inactive ((,class (:inherit mode-line :background ,bg1 :foreground ,comment :box nil))))
+   `(mode-line ((,class (:foreground ,fg1 :background ,rebecca))))
+   `(mode-line-inactive ((,class (:inherit mode-line :background ,bg1 :foreground ,comment :box ,comment))))
    `(mode-line-buffer-id ((,class (:foreground ,type))))
    ;; mu4e
    `(mu4e-cited-1-face ((,class (:foreground ,fg2))))
@@ -299,7 +301,7 @@
    `(outline-6 ((,class (:foreground ,rainbow-8))))
    ;; powerline
    `(powerline-active ((,class (:inherit mode-line ))))
-   `(powerline-active2 ((,class (:inherit powerline-active :background ,bg5))))
+   `(powerline-active2 ((,class (:inherit powerline-active :background ,bg2))))
    `(powerline-inactive ((,class (:inherit mode-line-inactive))))
    `(powerline-inactive2 ((,class (:inherit powerline-inactive))))
    `(powerline-evil-base-face ((t (:foreground ,bg2))))
@@ -334,6 +336,9 @@
    `(slime-repl-inputed-output-face ((,class (:foreground ,type))))
    ;; spam
    `(spam ((,class (:inherit gnus-summary-normal-read :foreground ,warning :strike-through t :slant oblique))))
+   ;; spacemacs
+   `(spacemacs-normal ((,class (:background ,rebecca))))
+   `(spacemacs-replace ((,class (:background ,str))))
    ;; term
    `(term ((,class (:foreground ,fg1 :background ,bg1))))
    `(term-color-black ((,class (:foreground ,bg3 :background ,bg3))))
