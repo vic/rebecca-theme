@@ -1,10 +1,11 @@
-# Rebeca, the purple turtle.
+# Rebecca, the purple turtle.
 
-`rebeca` is dark emacs theme with purple/violet colors.
+Rebecca is a dark emacs theme with violet colors suited for pleasurable coding [Elixir](http://elixir-lang.org) on [Spacemacs](http://spacemacs.org).
 
-I use it mostly for coding elixir and fits nicely with spacemacs.
 
 ### Screenshot
+
+![Rebecca](https://github.com/vic/rebecca-theme/raw/master/rebecca.png)
 
 
 # Installation
