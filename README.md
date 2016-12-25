@@ -9,9 +9,9 @@ Rebecca is a dark emacs theme with purple/violet colors.
 
 ### Screenshots
 
-![rebecca](https://cloud.githubusercontent.com/assets/331/21472087/a4d40b08-ca8e-11e6-8715-a3e11484506e.png)
-![rebecca2](https://cloud.githubusercontent.com/assets/331/21472090/b359061a-ca8e-11e6-8320-fad08268e883.png)
-![rebecca3](https://cloud.githubusercontent.com/assets/331/21472128/71d7d944-ca90-11e6-80f6-524ac4807761.png)
+![rebecca](https://cloud.githubusercontent.com/assets/331/21472090/b359061a-ca8e-11e6-8320-fad08268e883.png)
+
+[more screenshots](https://github.com/vic/rebecca-theme/issues/1)
 
 # Installation
 
@@ -33,9 +33,12 @@ dotspacemacs-themes '(
 
 ```
 M-x package-install [RET] rebecca-theme [RET]
+M-x load-theme [RET] rebecca [RET]
 ```
 
-Otherwise, put rebecca-theme.el in either the custom-theme-directory or load-path.
+#### Manually
+
+put rebecca-theme.el in either the custom-theme-directory or load-path.
 
 You can apply the theme via M-x customize-themes, or make it the default by adding the following to your Emacs configuration:
 
