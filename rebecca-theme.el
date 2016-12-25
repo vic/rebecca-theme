@@ -5,9 +5,11 @@
 ;; Code licensed under the MIT license
 ;; http://zenorocha.mit-license.org
 
-;; Author: vic
+;; Author: vic <vborja@apache.org>
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "24"))
+;; URL: https://github.com/vic/rebecca-theme
+;; Keywords: theme, dark
 
 ;;; Commentary:
 
@@ -20,7 +22,7 @@
 
 ;;; Code:
 
-(deftheme rebecca)
+(deftheme rebecca "A purple, dark theme.")
 
 (let ((class '((class color) (min-colors 89)))
       (fg1 "#f1eff8")
