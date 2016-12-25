@@ -36,7 +36,7 @@
       (bg5 "#423254")
       (key2 "#0189cc")
       (key3 "#ff79c6")
-      (builtin "#a0a0cf")
+      (builtin "#978ee0")
       (keyword "#7AA5FF")
       (const   "#FFDB7D")
       (comment "#53495d")
