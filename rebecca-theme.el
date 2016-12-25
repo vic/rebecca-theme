@@ -1,4 +1,4 @@
-;;; rebecca.el --- Rebecca Purple Theme
+;;; rebecca-theme.el --- Rebecca Purple Theme
 
 ;; Copyright 2016, All rights reserved
 ;;
