@@ -6,6 +6,8 @@ I use it mostly for coding elixir and fits nicely with spacemacs.
 
 ### Screenshot
 
+![Rebecca](https://github.com/vic/rebecca-theme/raw/master/rebecca.png)
+
 
 # Installation
 
