@@ -36,7 +36,7 @@
       (bg5 "#423254")
       (key2 "#0189cc")
       (key3 "#ff79c6")
-      (builtin "#978ee0")
+      (builtin "#8eaee0")
       (keyword "#7AA5FF")
       (const   "#FFDB7D")
       (comment "#53495d")
@@ -57,7 +57,7 @@
       (eph-verbatim "#f1fa8c")
       (eph-code "#ff79c6")
       (elixir-attribute-fg "#FF6F9F")
-      (elixir-atom-fg "#B294BE")
+      (elixir-atom-fg "#978ee0")
       (rebecca "#663399")
       )
 
