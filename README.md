@@ -2,7 +2,9 @@
 
 [![MELPA](https://melpa.org/packages/rebecca-theme-badge.svg)](https://melpa.org/#/rebecca-theme)
 
-Rebecca is a dark emacs theme with violet colors suited for pleasurable coding [Elixir](http://elixir-lang.org) on [Spacemacs](http://spacemacs.org).
+Rebecca is a dark emacs theme with purple/violet colors.
+
+I mostly use it for coding [Elixir](http://elixir-lang.org) on [Spacemacs](http://spacemacs.org).
 
 
 ### Screenshot
