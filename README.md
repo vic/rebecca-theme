@@ -7,12 +7,11 @@
 Rebecca is a dark emacs theme with purple/violet colors.
 
 
-### Screenshot
+### Screenshots
 
-![Rebecca](https://github.com/vic/rebecca-theme/raw/master/rebecca.png)
-
-![Rebecca](https://github.com/vic/rebecca-theme/raw/master/rebecca2.png)
-
+![rebecca](https://cloud.githubusercontent.com/assets/331/21472087/a4d40b08-ca8e-11e6-8715-a3e11484506e.png)
+![rebecca2](https://cloud.githubusercontent.com/assets/331/21472090/b359061a-ca8e-11e6-8320-fad08268e883.png)
+![rebecca3](https://cloud.githubusercontent.com/assets/331/21472128/71d7d944-ca90-11e6-80f6-524ac4807761.png)
 
 # Installation
 
