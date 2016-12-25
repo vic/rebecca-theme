@@ -241,8 +241,9 @@
    `(magit-section-heading        ((,class (:foreground ,keyword :weight bold))))
    `(magit-section-highlight      ((,class (:background ,bg2))))
    ;; mode-line
-   `(mode-line ((,class (:foreground nil :background ,rebecca :box ,rebecca))))
-   `(mode-line-inactive ((,class (:foreground ,fg1 :background ,bg1 :box ,bg1))))
+   `(mode-line ((,class (:foreground nil :background ,rebecca :box ,bg5))))
+   `(mode-line-inactive ((,class (:inherit mode-line :background ,bg1 :foreground ,comment :box nil))))
+   `(mode-line-buffer-id ((,class (:foreground ,type))))
    ;; mu4e
    `(mu4e-cited-1-face ((,class (:foreground ,fg2))))
    `(mu4e-cited-7-face ((,class (:foreground ,fg3))))
@@ -297,6 +298,10 @@
    `(outline-5 ((,class (:foreground ,rainbow-5))))
    `(outline-6 ((,class (:foreground ,rainbow-8))))
    ;; powerline
+   `(powerline-active ((,class (:inherit mode-line ))))
+   `(powerline-active2 ((,class (:inherit powerline-active :background ,bg5))))
+   `(powerline-inactive ((,class (:inherit mode-line-inactive))))
+   `(powerline-inactive2 ((,class (:inherit powerline-inactive))))
    `(powerline-evil-base-face ((t (:foreground ,bg2))))
    `(powerline-evil-emacs-face ((,class (:inherit powerline-evil-base-face :background ,rainbow-7))))
    `(powerline-evil-insert-face ((,class (:inherit powerline-evil-base-face :background ,rainbow-2))))
