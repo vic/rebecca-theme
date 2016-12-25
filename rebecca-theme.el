@@ -167,9 +167,12 @@
    `(gnus-summary-normal-unread ((,class (:foreground ,comment :weight normal))))
    `(gnus-summary-selected ((,class (:inverse-video t))))
    ;; helm
-   `(helm-match ((,class (:foreground ,type))))
+
+   `(helm-match ((,class (:inherit highlight))))
    `(helm-bookmark-w3m ((,class (:foreground ,type))))
-   `(helm-buffer-not-saved ((,class (:foreground ,type :background ,bg1))))
+   `(helm-buffer-directory ((,class (:foreground ,type :background ,bg1))))
+   `(helm-buffer-not-saved ((,class (:foreground ,str :background ,bg1))))
+
    `(helm-buffer-process ((,class (:foreground ,builtin :background ,bg1))))
    `(helm-buffer-saved-out ((,class (:foreground ,fg1 :background ,bg1))))
    `(helm-buffer-size ((,class (:foreground ,fg1 :background ,bg1))))
