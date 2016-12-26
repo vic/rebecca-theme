@@ -40,7 +40,7 @@
       (builtin "#8eaee0")
       (keyword "#7AA5FF")
       (const   "#FFDB7D")
-      (comment "#53495d")
+      (comment "#4c4a63")
       (func    "#2DE0A7")
       (str     "#6DFEDF")
       (type    "#AE81FF")
@@ -136,7 +136,7 @@
    `(font-latex-match-reference-keywords ((,class (:foreground ,const))))
    `(font-latex-match-variable-keywords ((,class (:foreground ,var))))
    `(font-latex-string-face ((,class (:foreground ,str))))
-   ;; gnus-grou
+   ;; gnus-group
    `(gnus-group-mail-1 ((,class (:foreground ,keyword :bold t))))
    `(gnus-group-mail-1-empty ((,class (:inherit gnus-group-mail-1 :bold nil))))
    `(gnus-group-mail-2 ((,class (:foreground ,const :bold t))))
