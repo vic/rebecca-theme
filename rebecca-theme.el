@@ -101,7 +101,7 @@
    `(link ((,class (:foreground ,const :underline t))))
    `(linum ((,class (:foreground ,comment :background ,bg1 :height 0.9))))
    `(linum-relative-current ((,class (:foreground ,fg1 :background ,bg1 :height 0.9))))
-   `(minibuffer-prompt ((,class (:bold t :foreground ,str))))
+   `(minibuffer-prompt ((,class (:bold t :foreground ,func))))
    `(region ((,class (:background ,rebecca))))
    `(show-paren-match-face ((,class (:background ,warning))))
    `(tooltip ((,class (:foreground ,fg2 :background ,bg0))))
