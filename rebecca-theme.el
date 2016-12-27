@@ -35,11 +35,11 @@
        (base05 "#f1eff8") ;; default foreground
        (base06 "#ccccff") ;; light foreground
        (base07 "#53495d") ;; light background
-       (base08 "#8eaee0") ;; variables
-       (base09 "#b45bcf") ;; constants
+       (base08 "#a0a0c5") ;; variables
+       (base09 "#ffdb7d") ;; constants
        (base0A "#ae81ff") ;; search text background
-       (base0B "#978ee0") ;; strings
-       (base0C "#a1efe4") ;; regex, escaped chars
+       (base0B "#6dfedf") ;; strings
+       (base0C "#8eaee0") ;; regex, escaped chars
        (base0D "#2de0a7") ;; functions
        (base0E "#7aa5ff") ;; keywords
        (base0F "#ff79c6") ;; deprecations
@@ -68,14 +68,14 @@
        (warning base0F)
 
        (rainbow-1 base03)
-       (rainbow-2 base04)
-       (rainbow-3 base06)
-       (rainbow-4 base08)
-       (rainbow-5 base09)
-       (rainbow-6 base0A)
-       (rainbow-7 base0B)
-       (rainbow-8 base0C)
-       (rainbow-9 base0D)
+       (rainbow-2 base08)
+       (rainbow-3 base09)
+       (rainbow-4 base0A)
+       (rainbow-5 base0B)
+       (rainbow-6 base0C)
+       (rainbow-7 base0D)
+       (rainbow-8 base0E)
+       (rainbow-9 base0F)
 
        (eph-verbatim base0D)
        (eph-code     base0F)
@@ -101,7 +101,7 @@
    `(link ((,class (:foreground ,const :underline t))))
    `(linum ((,class (:foreground ,comment :background ,bg1 :height 0.9))))
    `(linum-relative-current ((,class (:foreground ,fg1 :background ,bg1 :height 0.9))))
-   `(minibuffer-prompt ((,class (:bold t :foreground ,warning))))
+   `(minibuffer-prompt ((,class (:bold t :foreground ,str))))
    `(region ((,class (:background ,rebecca))))
    `(show-paren-match-face ((,class (:background ,warning))))
    `(tooltip ((,class (:foreground ,fg2 :background ,bg0))))
