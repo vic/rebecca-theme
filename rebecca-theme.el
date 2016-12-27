@@ -6,61 +6,83 @@
 ;; http://zenorocha.mit-license.org
 
 ;; Author: vic <vborja@apache.org>
-;; Version: 1.1.0
+;; Version: 1.2.0
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/vic/rebecca-theme
 ;; Keywords: theme, dark
 
 ;;; Commentary:
-
 ;; Rebecca, the purple turtle.
+
+;;; Code:
 ;;
 ;; Based on
 ;;
 ;; Emacs Dracula: https://github.com/dracula/emacs
 ;; Atom Gloom: https://atom.io/packages/gloom
 
-;;; Code:
 
 (deftheme rebecca "A purple, dark theme.")
 
-(let ((class '((class color) (min-colors 89)))
-      (fg1 "#f1eff8")
-      (fg2 "#e2e2dc")
-      (fg3 "#94f2e7")
-      (fg4 "#F1EFF7")
-      (bg0 "#270d27")
-      (bg1 "#292a44")
-      (bg2 "#373844")
-      (bg3 "#383A62")
-      (bg4 "#53495d")
-      (bg5 "#423254")
-      (key2 "#0189cc")
-      (key3 "#ff79c6")
-      (builtin "#8eaee0")
-      (keyword "#7AA5FF")
-      (const   "#FFDB7D")
-      (comment "#4c4a63")
-      (func    "#2DE0A7")
-      (str     "#6DFEDF")
-      (type    "#AE81FF")
-      (var     "#A0A0C5")
-      (warning "#E88E2C")
-      (rainbow-1 "#f8f8f2")
-      (rainbow-2 "#8be9fd")
-      (rainbow-3 "#bd93f9")
-      (rainbow-4 "#ff79c6")
-      (rainbow-5 "#ffb86c")
-      (rainbow-6 "#50fa7b")
-      (rainbow-7 "#f1fa8c")
-      (rainbow-8 "#0189cc")
-      (rainbow-9 "#ff5555")
-      (eph-verbatim "#f1fa8c")
-      (eph-code "#ff79c6")
-      (elixir-attribute-fg "#FF6F9F")
-      (elixir-atom-fg "#978ee0")
-      (rebecca "#663399")
-      )
+(let* ((class '((class color) (min-colors 89)))
+       (rebecca "#663399")
+
+       (base00 "#292a44") ;; default background
+       (base01 "#663399") ;; lighter background (status bar)
+       (base02 "#383a62") ;; selection background
+       (base03 "#666699") ;; comments, invisibles
+       (base04 "#a0a0c5") ;; dark foreground (status bar)
+       (base05 "#f1eff8") ;; default foreground
+       (base06 "#ccccff") ;; light foreground
+       (base07 "#53495d") ;; light background
+       (base08 "#8eaee0") ;; variables
+       (base09 "#b45bcf") ;; constants
+       (base0A "#ae81ff") ;; search text background
+       (base0B "#978ee0") ;; strings
+       (base0C "#a1efe4") ;; regex, escaped chars
+       (base0D "#2de0a7") ;; functions
+       (base0E "#7aa5ff") ;; keywords
+       (base0F "#ff79c6") ;; deprecations
+
+       (fg1  base05)
+       (fg2  base06)
+       (fg3  base0C)
+       (fg4  base04)
+       (bg0  base02)
+       (bg1  base00)
+       (bg2  base02)
+       (bg3  base02)
+       (bg4  base07)
+       (bg5  base02)
+       (key2 base0E)
+       (key3 base0F)
+
+       (builtin base0C)
+       (keyword base0E)
+       (const   base09)
+       (comment base03)
+       (func    base0D)
+       (str     base0B)
+       (type    base0A)
+       (var     base08)
+       (warning base0F)
+
+       (rainbow-1 base03)
+       (rainbow-2 base04)
+       (rainbow-3 base06)
+       (rainbow-4 base08)
+       (rainbow-5 base09)
+       (rainbow-6 base0A)
+       (rainbow-7 base0B)
+       (rainbow-8 base0C)
+       (rainbow-9 base0D)
+
+       (eph-verbatim base0D)
+       (eph-code     base0F)
+
+       (ex-attr base0F)
+       (ex-atom base06)
+       )
 
   (custom-theme-set-faces
    'rebecca
@@ -71,7 +93,8 @@
    `(ffap ((,class (:foreground ,fg4))))
    `(fringe ((,class (:background ,bg1 :foreground ,fg4))))
    `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
-   `(hl-line ((,class (:background  ,bg0))))
+   `(header-line ((,class (:foreground ,fg2))))
+   `(hl-line ((,class (:background  ,bg3))))
    `(info-quoted-name ((,class (:foreground ,builtin))))
    `(info-string ((,class (:foreground ,str))))
    `(lazy-highlight ((,class (:foreground ,fg2 :background ,bg3))))
@@ -79,7 +102,7 @@
    `(linum ((,class (:foreground ,comment :background ,bg1 :height 0.9))))
    `(linum-relative-current ((,class (:foreground ,fg1 :background ,bg1 :height 0.9))))
    `(minibuffer-prompt ((,class (:bold t :foreground ,str))))
-   `(region ((,class (:background ,rebecca :foreground ,fg3))))
+   `(region ((,class (:background ,rebecca))))
    `(show-paren-match-face ((,class (:background ,warning))))
    `(tooltip ((,class (:foreground ,fg2 :background ,bg0))))
    `(trailing-whitespace ((,class :foreground nil :background ,warning)))
@@ -125,8 +148,8 @@
    `(enh-ruby-regexp-delimiter-face ((,class (:foreground ,str))))
    `(enh-ruby-string-delimiter-face ((,class (:foreground ,str))))
    ;; elixir
-   `(elixir-attribute-face ((,class (:foreground ,elixir-attribute-fg))))
-   `(elixir-atom-face ((,class (:foreground ,elixir-atom-fg))))
+   `(elixir-attribute-face ((,class (:foreground ,ex-attr))))
+   `(elixir-atom-face ((,class (:foreground ,ex-atom))))
    ;; evil
    `(evil-ex-lazy-highlight ((,class (:inherit lazy-highlight))))
    `(evil-search-highlight-persist-highlight-face ((,class (:background ,type :foreground ,bg5))))
@@ -308,9 +331,9 @@
    `(outline-5 ((,class (:foreground ,rainbow-5))))
    `(outline-6 ((,class (:foreground ,rainbow-8))))
    ;; powerline
-   `(powerline-active ((,class (:inherit mode-line ))))
+   `(powerline-active1 ((,class (:inherit mode-line))))
    `(powerline-active2 ((,class (:inherit powerline-active :background ,bg2))))
-   `(powerline-inactive ((,class (:inherit mode-line-inactive))))
+   `(powerline-inactive1 ((,class (:inherit mode-line-inactive))))
    `(powerline-inactive2 ((,class (:inherit powerline-inactive))))
    `(powerline-evil-base-face ((t (:foreground ,bg2))))
    `(powerline-evil-emacs-face ((,class (:inherit powerline-evil-base-face :background ,rainbow-7))))
@@ -449,7 +472,7 @@
    `(icicle-common-match-highlight-Completions ((,class (:foreground ,type))))
    `(icicle-candidate-part                     ((,class (:foreground ,var))))
    `(icicle-annotation                         ((,class (:foreground ,fg4))))
-  ))
+   ))
 
 
 ;;;###autoload
