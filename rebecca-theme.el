@@ -6,7 +6,7 @@
 ;; http://zenorocha.mit-license.org
 
 ;; Author: vic <vborja@apache.org>
-;; Version: 1.2.0
+;; Version: 1.2.1
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/vic/rebecca-theme
 ;; Keywords: theme, dark
