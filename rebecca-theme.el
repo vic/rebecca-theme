@@ -282,8 +282,8 @@
    `(mu4e-header-marks-face ((,class (:foreground ,type))))
    `(mu4e-view-url-number-face ((,class (:foreground ,type))))
    ;; neotree
-   `(neo-dir-link-face ((,class (:foreground ,keyword))))
-   `(neo-root-dir-face ((,class (:inherit dired-header))))
+   `(neo-dir-link-face ((,class (:foreground ,rainbow-4))))
+   `(neo-root-dir-face ((,class (:foreground ,rainbow-9))))
    ;; org
    `(org-agenda-date ((,class (:foreground ,rainbow-2 :underline nil))))
    `(org-agenda-dimmed-todo-face ((,class (:foreground ,comment))))
