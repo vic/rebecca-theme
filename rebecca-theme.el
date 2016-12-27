@@ -36,7 +36,7 @@
        (base06 "#ccccff") ;; light foreground
        (base07 "#53495d") ;; light background
        (base08 "#a0a0c5") ;; variables
-       (base09 "#ffdb7d") ;; constants
+       (base09 "#efe4a1") ;; constants
        (base0A "#ae81ff") ;; search text background
        (base0B "#6dfedf") ;; strings
        (base0C "#8eaee0") ;; regex, escaped chars
@@ -69,7 +69,7 @@
 
        (rainbow-1 base03)
        (rainbow-2 base08)
-       (rainbow-3 base09)
+       (rainbow-3 base06)
        (rainbow-4 base0A)
        (rainbow-5 base0B)
        (rainbow-6 base0C)
@@ -101,7 +101,7 @@
    `(link ((,class (:foreground ,const :underline t))))
    `(linum ((,class (:foreground ,comment :background ,bg1 :height 0.9))))
    `(linum-relative-current ((,class (:foreground ,fg1 :background ,bg1 :height 0.9))))
-   `(minibuffer-prompt ((,class (:bold t :foreground ,str))))
+   `(minibuffer-prompt ((,class (:bold t :foreground ,fg2))))
    `(region ((,class (:background ,rebecca))))
    `(show-paren-match-face ((,class (:background ,warning))))
    `(tooltip ((,class (:foreground ,fg2 :background ,bg0))))
@@ -116,7 +116,7 @@
    `(font-lock-doc-face ((,class (:foreground ,comment))))
    `(font-lock-function-name-face ((,class (:foreground ,func :bold t))))
    `(font-lock-keyword-face ((,class (:bold ,class :foreground ,keyword))))
-   `(font-lock-negation-char-face ((,class (:foreground ,const))))
+   `(font-lock-negation-char-face ((,class (:foreground ,key3))))
    `(font-lock-reference-face ((,class (:foreground ,const))))
    `(font-lock-string-face ((,class (:foreground ,str))))
    `(font-lock-type-face ((,class (:foreground ,type ))))
@@ -244,7 +244,7 @@
    `(jde-java-font-lock-public-face ((t (:foreground ,keyword))))
    ;; js2-mode
    `(js2-external-variable ((,class (:foreground ,type  ))))
-   `(js2-function-param ((,class (:foreground ,const))))
+   `(js2-function-param ((,class (:foreground ,var))))
    `(js2-jsdoc-html-tag-delimiter ((,class (:foreground ,str))))
    `(js2-jsdoc-html-tag-name ((,class (:foreground ,key2))))
    `(js2-jsdoc-value ((,class (:foreground ,str))))
