@@ -474,9 +474,13 @@
    `(icicle-complete-input                     ((,class (:foreground ,builtin))))
    `(icicle-common-match-highlight-Completions ((,class (:foreground ,type))))
    `(icicle-candidate-part                     ((,class (:foreground ,var))))
-   `(icicle-annotation                         ((,class (:foreground ,fg4))))
-   ))
+   `(icicle-annotation                         ((,class (:foreground ,fg4)))))
 
+  (custom-theme-set-variables
+   'rebecca
+   `(ansi-color-names-vector [(,bg3 ,bg3) (,keyword ,bg3) (,type ,bg3)
+			      (,var ,var) (,func ,func) (,builtin ,builtin)
+			      (,str ,str) (,fg2 ,fg2)])))
 
 ;;;###autoload
 (when load-file-name
