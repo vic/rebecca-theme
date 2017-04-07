@@ -7,7 +7,6 @@
 
 ;; Author: vic <vborja@apache.org>
 ;; Version: 1.2.1
-;; Package-Version: 20170220.1342
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/vic/rebecca-theme
 ;; Keywords: theme, dark
