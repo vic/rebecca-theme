@@ -7,6 +7,7 @@
 
 ;; Author: vic <vborja@apache.org>
 ;; Version: 1.2.1
+;; Package-Version: 20170220.1342
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/vic/rebecca-theme
 ;; Keywords: theme, dark
@@ -28,22 +29,22 @@
        (rebecca "#663399")
        (ninja   "#333353")
 
-       (base00 "#292a44") ;; default background
-       (base01 "#663399") ;; lighter background (status bar)
-       (base02 "#383a62") ;; selection background
-       (base03 "#666699") ;; comments, invisibles
-       (base04 "#a0a0c5") ;; dark foreground (status bar)
-       (base05 "#f1eff8") ;; default foreground
-       (base06 "#ccccff") ;; light foreground
-       (base07 "#53495d") ;; light background
-       (base08 "#a0a0c5") ;; variables
-       (base09 "#efe4a1") ;; constants
-       (base0A "#ae81ff") ;; search text background
-       (base0B "#6dfedf") ;; strings
-       (base0C "#8eaee0") ;; regex, escaped chars
-       (base0D "#2de0a7") ;; functions
-       (base0E "#7aa5ff") ;; keywords
-       (base0F "#ff79c6") ;; deprecations
+       (base00 (if (display-graphic-p) "#292a44" nil)) ;; default background
+       (base01 (if (display-graphic-p) "#663399" "#8700d7")) ;; lighter background (status bar)
+       (base02 (if (display-graphic-p) "#383a62" "#303030")) ;; selection background
+       (base03 (if (display-graphic-p) "#666699" "#5f5f87")) ;; comments, invisibles
+       (base04 (if (display-graphic-p) "#a0a0c5" "#8787af")) ;; dark foreground (status bar)
+       (base05 (if (display-graphic-p) "#f1eff8" "#e4e4e4")) ;; default foreground
+       (base06 (if (display-graphic-p) "#ccccff" "#afafff")) ;; light foreground
+       (base07 (if (display-graphic-p) "#53495d" "#4e4e4e")) ;; light background
+       (base08 (if (display-graphic-p) "#a0a0c5" "#afafd7")) ;; variables
+       (base09 (if (display-graphic-p) "#efe4a1" "#ffff87")) ;; constants
+       (base0A (if (display-graphic-p) "#ae81ff" "#af5fff")) ;; search text background
+       (base0B (if (display-graphic-p) "#6dfedf" "#87ffd7")) ;; strings
+       (base0C (if (display-graphic-p) "#8eaee0" "#87afd7")) ;; regex, escaped chars
+       (base0D (if (display-graphic-p) "#2de0a7" "#5fd7af")) ;; functions
+       (base0E (if (display-graphic-p) "#7aa5ff" "#5fafff")) ;; keywords
+       (base0F (if (display-graphic-p) "#ff79c6" "#ff5faf")) ;; deprecations
 
        (fg1  base05)
        (fg2  base06)
