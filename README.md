@@ -11,24 +11,29 @@ Rebecca is a dark emacs theme with purple/violet colors.
 
 ### Screenshots
 
-![rebecca](https://cloud.githubusercontent.com/assets/331/21472090/b359061a-ca8e-11e6-8320-fad08268e883.png)
+![screen shot 2016-12-27 at 2 13 55 pm](https://cloud.githubusercontent.com/assets/331/21507655/e4e04196-cc3f-11e6-9dd4-4b26d562182f.png)
 
 [more screenshots](https://github.com/vic/rebecca-theme/issues/1)
+[at emacsthemes.com](https://emacsthemes.com/themes/rebecca-theme.html)
 
 # Installation
 
 #### With [Spacemacs](http://spacemacs.org)
 
-Add the following two settings on your `~/.spacemacs` file
+Rebecca is now included in spacemacs' [theme-megapack](https://github.com/syl20bnr/spacemacs/tree/develop/layers/%2Bthemes/themes-megapack).
+
+To set it as default just add it to the top of themes preference on your ~/.spacemacs file:
 
 ```emacs-lisp
-dotspacemacs-additional-packages '(
-   rebecca-theme
-)
-
 dotspacemacs-themes '(
    rebecca
 )
+```
+
+Or activate it using the theme switcher:
+
+```
+SPC T s rebecca [RET]
 ```
 
 #### From [MELPA](https://melpa.org/#/rebecca-theme)
