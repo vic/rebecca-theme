@@ -1,6 +1,6 @@
 ;;; rebecca-theme.el --- Rebecca Purple Theme
 
-;; Copyright 2016, All rights reserved
+;; Copyright 2016-2017, All rights reserved
 ;;
 ;; Code licensed under the MIT license
 ;; http://zenorocha.mit-license.org
