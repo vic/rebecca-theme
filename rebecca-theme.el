@@ -474,7 +474,16 @@
    `(icicle-complete-input                     ((,class (:foreground ,builtin))))
    `(icicle-common-match-highlight-Completions ((,class (:foreground ,type))))
    `(icicle-candidate-part                     ((,class (:foreground ,var))))
-   `(icicle-annotation                         ((,class (:foreground ,fg4)))))
+   `(icicle-annotation                         ((,class (:foreground ,fg4))))
+   ;; Markdown mode
+   `(markdown-code-face ((,class (:inherit org-code))))
+   `(markdown-pre-face ((,class (:inherit org-block))))
+   `(markdown-header-face-1 ((,class (:inherit org-level-1))))
+   `(markdown-header-face-2 ((,class (:inherit org-level-2))))
+   `(markdown-header-face-3 ((,class (:inherit org-level-3))))
+   `(markdown-header-face-4 ((,class (:inherit org-level-4))))
+   `(markdown-header-face-5 ((,class (:inherit org-level-5))))
+   `(markdown-header-face-6 ((,class (:inherit org-level-6)))))
 
   (custom-theme-set-variables
    'rebecca
