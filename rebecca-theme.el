@@ -1,12 +1,12 @@
 ;;; rebecca-theme.el --- Rebecca Purple Theme
 
-;; Copyright 2016-2017, All rights reserved
+;; Copyright 2016-2018, All rights reserved
 ;;
 ;; Code licensed under the MIT license
 ;; http://zenorocha.mit-license.org
 
 ;; Author: vic <vborja@apache.org>
-;; Version: 1.3.0
+;; Version: 1.3.1
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/vic/rebecca-theme
 ;; Keywords: theme, dark
@@ -263,12 +263,18 @@
    ;; magit
    `(magit-branch ((,class (:foreground ,const :weight bold))))
    `(magit-diff-context-highlight ((,class (:background ,bg3 :foreground ,fg3))))
+   `(magit-diff-added-highlight ((,class (:background ,bg3 :foreground ,str))))
+   `(magit-diff-removed-highlight ((,class (:background ,bg3 :foreground ,warning))))
+   `(magit-diff-added ((,class (:background ,bg1 :foreground ,str))))
+   `(magit-diff-removed ((,class (:background ,bg1 :foreground ,warning))))
    `(magit-diff-file-header ((,class (:foreground ,fg2 :background ,bg3))))
    `(magit-diffstat-added   ((,class (:foreground ,type))))
    `(magit-diffstat-removed ((,class (:foreground ,var))))
    `(magit-hash ((,class (:foreground ,fg2))))
-   `(magit-hunk-heading           ((,class (:background ,bg3))))
-   `(magit-hunk-heading-highlight ((,class (:background ,bg3))))
+   `(magit-diff-hunk-heading           ((,class (:background ,bg4))))
+   `(magit-diff-hunk-heading-highlight ((,class (:background ,rebecca))))
+   `(magit-hunk-heading           ((,class (:background ,bg4))))
+   `(magit-hunk-heading-highlight ((,class (:background ,rebecca))))
    `(magit-item-highlight ((,class :background ,bg3)))
    `(magit-log-author ((,class (:foreground ,fg3))))
    `(magit-process-ng ((,class (:foreground ,warning :weight bold))))
