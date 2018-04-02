@@ -63,3 +63,10 @@ You can apply the theme via M-x customize-themes, or make it the default by addi
 ```emacs-lisp
    (load-theme #'rebecca t)
 ```   
+
+
+## Terminal 24bits colors
+
+For getting the best experience on terminal, I'd recommend to use an emacs patched with 23bit color support. And
+a terminal supporting true color, like iterm2. 
+Instructions for this, and a work in progress color theme for iterm2 can be [found here](https://gist.github.com/vic/fa58918694af3b3767fbc7dc22cbc406)
