@@ -18,7 +18,7 @@ Works best with [this soundtrack](https://www.youtube.com/watch?v=rDBbaGCCIhk)
 [![screen shot 2016-12-27 at 2 13 55 pm](https://cloud.githubusercontent.com/assets/331/21507655/e4e04196-cc3f-11e6-9dd4-4b26d562182f.png)](https://github.com/vic/rebecca-theme/issues/1#emacsplus-on-osx)
 
 #### Terminal
-[![screen shot 2017-04-24 at 3 30 44 pm](https://cloud.githubusercontent.com/assets/331/25357351/1a07cb80-2903-11e7-9bd1-1abf9c093d03.png)](https://github.com/vic/rebecca-theme/issues/1#running-on-terminal)
+[![screen shot 2018-04-01 at 11 37 43 pm](https://user-images.githubusercontent.com/331/38183422-f26862f4-3605-11e8-9209-335c4b04325e.png)](https://github.com/vic/rebecca-theme/issues/1#running-on-terminal)
 
 
 
@@ -69,9 +69,9 @@ You can apply the theme via M-x customize-themes, or make it the default by addi
 
 For getting the best experience on terminal, I'd recommend to use an emacs patched with 24bit color support.
 
-There are some nice looking rebecca iterm2 color schemes here: 
-https://github.com/martinlindhe/base16-iterm2/tree/master/itermcolors
+Instructions for getting emacs with 24bit colors, my work in progress colorscheme for iterm2 can be [found here](https://gist.github.com/vic/fa58918694af3b3767fbc7dc22cbc406)
 
-They are generated from [base16-rebecca](https://github.com/vic/base16-rebecca)
+Also, some [base16-rebecca](https://github.com/vic/base16-rebecca) iterm colors can be [found here](https://github.com/martinlindhe/base16-iterm2/tree/master/itermcolors)
 
-Instructions for getting emacs with 24bit colors, and a work in progress color theme for iterm2 can be [found here](https://gist.github.com/vic/fa58918694af3b3767fbc7dc22cbc406)
+
+
