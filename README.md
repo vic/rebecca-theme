@@ -64,14 +64,17 @@ You can apply the theme via M-x customize-themes, or make it the default by addi
    (load-theme #'rebecca t)
 ```   
 
+## Term color scheme
 
-## Terminal 24bits colors
+The Rebecca color scheme has been [ported to `iterm2` and many other terminals](https://github.com/mbadolato/iTerm2-Color-Schemes).
+
+Also, some [base16-rebecca](https://github.com/vic/base16-rebecca) iterm colors can be [found here](https://github.com/martinlindhe/base16-iterm2/tree/master/itermcolors)
+
+## Emacs terminal 24bit colors
 
 For getting the best experience on terminal, I'd recommend to use an emacs patched with 24bit color support.
 
-Instructions for getting emacs with 24bit colors, my work in progress colorscheme for iterm2 can be [found here](https://gist.github.com/vic/fa58918694af3b3767fbc7dc22cbc406)
-
-Also, some [base16-rebecca](https://github.com/vic/base16-rebecca) iterm colors can be [found here](https://github.com/martinlindhe/base16-iterm2/tree/master/itermcolors)
+Instructions for getting emacs with 24bit colors can be [found here](https://gist.github.com/vic/fa58918694af3b3767fbc7dc22cbc406)
 
 
 
