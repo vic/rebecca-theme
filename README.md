@@ -8,7 +8,7 @@
 
 Rebecca is a dark emacs theme with purple/violet colors.
 
-Works best with [this soundtrack](https://www.youtube.com/watch?v=rDBbaGCCIhk)
+Works best with [this soundtrack](https://www.youtube.com/watch?v=rDBbaGCCIhk) and [Liam Wong's photos](http://liamwon9.tumblr.com/) as background.
 
 
 ### Screenshots
