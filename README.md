@@ -13,16 +13,39 @@ Works best with [this soundtrack](https://www.youtube.com/watch?v=rDBbaGCCIhk) a
 
 ### Screenshots
 
-#### GUI
+# Rebecca, the purple turtle.
 
-[![screen shot 2016-12-27 at 2 13 55 pm](https://cloud.githubusercontent.com/assets/331/21507655/e4e04196-cc3f-11e6-9dd4-4b26d562182f.png)](https://github.com/vic/rebecca-theme/issues/1#emacsplus-on-osx)
+![screen shot 2016-12-27 at 2 13 55 pm](https://cloud.githubusercontent.com/assets/331/21507655/e4e04196-cc3f-11e6-9dd4-4b26d562182f.png)
 
-#### Terminal
-[![screen shot 2018-04-01 at 11 37 43 pm](https://user-images.githubusercontent.com/331/38183422-f26862f4-3605-11e8-9209-335c4b04325e.png)](https://github.com/vic/rebecca-theme/issues/1#running-on-terminal)
+## emacsplus on OSX 
+
+![screen shot 2016-12-27 at 2 21 45 pm](https://cloud.githubusercontent.com/assets/331/21507653/e4bc1708-cc3f-11e6-976a-ccea9d94e584.png)
+![screen shot 2016-12-27 at 2 17 04 pm](https://cloud.githubusercontent.com/assets/331/21507654/e4d1f7d0-cc3f-11e6-97c6-aeb536221013.png)
+![rebecca](https://cloud.githubusercontent.com/assets/331/21472090/b359061a-ca8e-11e6-8320-fad08268e883.png)
+
+## running on terminal 
+
+##### TERM=xterm-24bits
+
+[on tmux in iterm2 with emacs patched for 24bit colors, vimpowerline](https://gist.github.com/vic/fa58918694af3b3767fbc7dc22cbc406)
+
+![screen shot 2018-04-01 at 11 56 34 pm](https://user-images.githubusercontent.com/331/38183752-7d26debe-3608-11e8-8809-fc09da5dc979.png)
+
+![screen shot 2018-04-01 at 11 37 43 pm](https://user-images.githubusercontent.com/331/38183422-f26862f4-3605-11e8-9209-335c4b04325e.png)
+
+
+##### TERM=screen-256color
+
+![screen shot 2017-04-24 at 3 23 56 pm](https://cloud.githubusercontent.com/assets/331/25357349/17ba8214-2903-11e7-9cc0-03229e053da9.png)
+![screen shot 2017-04-24 at 3 30 44 pm](https://cloud.githubusercontent.com/assets/331/25357351/1a07cb80-2903-11e7-9bd1-1abf9c093d03.png)
+
+## on Android inside termux
+
+![screenshot_20180129-030747](https://user-images.githubusercontent.com/331/35502267-17bf1e34-04a2-11e8-9285-5764429901be.png)
 
 
 
-[more screenshots](https://github.com/vic/rebecca-theme/issues/1)
+
 
 [Rebecca at emacsthemes.com](https://emacsthemes.com/themes/rebecca-theme.html)
 
