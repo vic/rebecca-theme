@@ -28,7 +28,7 @@
        (rebecca "#663399")
        (ninja   "#333353")
 
-       (base00 (if (display-graphic-p) "#292a44" nil)) ;; default background
+       (base00 (if (display-graphic-p) "#292a44" "unspecified-bg")) ;; default background
        (base01 (if (display-graphic-p) "#663399" "#8700d7")) ;; lighter background (status bar)
        (base02 (if (display-graphic-p) "#383a62" "#303030")) ;; selection background
        (base03 (if (display-graphic-p) "#666699" "#5f5f87")) ;; comments, invisibles
@@ -106,7 +106,7 @@
    `(region ((,class (:background ,rebecca))))
    `(show-paren-match-face ((,class (:background ,warning))))
    `(tooltip ((,class (:foreground ,fg2 :background ,bg0))))
-   `(trailing-whitespace ((,class :foreground nil :background ,warning)))
+   `(trailing-whitespace ((,class :foreground unspecified :background ,warning)))
    `(vertical-border ((,class (:foreground ,bg2))))
    `(warning ((,class (:foreground ,warning))))
    `(whitespace-space ((,class (:foreground ,ninja))))
@@ -217,7 +217,7 @@
    `(helm-grep-file ((,class (:foreground ,fg1 :background ,bg1))))
    `(helm-grep-finish ((,class (:foreground ,fg2 :background ,bg1))))
    `(helm-grep-lineno ((,class (:foreground ,fg1 :background ,bg1))))
-   `(helm-grep-match ((,class (:foreground nil :background nil :inherit helm-match))))
+   `(helm-grep-match ((,class (:foreground unspecified :background unspecified :inherit helm-match))))
    `(helm-grep-running ((,class (:foreground ,func :background ,bg1))))
    `(helm-header ((,class (:foreground ,fg2 :background ,bg1 :underline nil :box nil))))
    `(helm-moccur-buffer ((,class (:foreground ,func :background ,bg1))))
