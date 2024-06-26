@@ -99,5 +99,19 @@ For getting the best experience on terminal, I'd recommend to use an emacs patch
 
 Instructions for getting emacs with 24bit colors can be [found here](https://gist.github.com/vic/fa58918694af3b3767fbc7dc22cbc406)
 
+## Wezterm
+
+Wezterm includes the rebbeca theme by default, to enable it use something like the following on your `$XDG_HOME/.config/wezterm/wezterm.lua` file:
+
+```lua
+local wezterm = require 'wezterm'
+local config = {}
+config.color_scheme = 'rebecca'
+return config
+```
+
+## Zellij
+
+A port of this theme for zellij can be [found here](https://github.com/vic/zellij-rebecca-theme)
 
 
