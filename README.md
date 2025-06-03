@@ -8,6 +8,8 @@
 
 Rebecca is a dark emacs theme with purple/violet colors.
 
+Main accent color is [Rebecca Purple](https://zeldman.com/2014/06/10/the-color-purple/) and a personal loving tribute to the life of Rebecca De La Rosa.
+
 Works best with [this soundtrack](https://www.youtube.com/watch?v=rDBbaGCCIhk) and [Liam Wong's photos](http://liamwon9.tumblr.com/) as background.
 
 
